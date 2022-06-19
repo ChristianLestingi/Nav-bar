@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    background-color: rgb(2, 2, 18)
+}
+
+
+ul li {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.nav-h {
+    color: white;
+    font-size: 25px;
+}
+
+.nav-home {
+    color: white;
+}
+
+.cerca {
+    float: right;
+}
+
+.nav-bar {
+    float: left;
+    width: 800px;
+    height: 60px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    background-color: rgba(4, 4, 4, 0.818);
+
+
+
+}
+
+.link {
+    color: grey;
+}
+#disabled{
+    color: lightgray;
+}
+
+
+#search {
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+#sub {
+    color: green;
+    border: 1px solid green;
+    width: 70px;
+    height: 35px;
+    background-color: rgba(4, 4, 4, 0.818);
+
+}
+ select{
+    border: none;
+    color: gray;
+    
+}
