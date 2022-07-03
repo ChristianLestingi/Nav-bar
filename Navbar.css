@@ -4,12 +4,14 @@
 }
 
 
+
 ul li {
     float: left;
     text-decoration: none;
     list-style: none;
     margin: 10px;
     font-size: 20px;
+    background-color: black;
 }
 
 .nav-h {
@@ -25,8 +27,14 @@ ul li {
     float: right;
 }
 
+.burger {
+    display: none;
+
+
+}
+
 .nav-bar {
-    float: left;
+
     width: 800px;
     height: 60px;
     border-bottom: 1px solid white;
@@ -37,10 +45,21 @@ ul li {
 
 }
 
+.nav-home,
+.link,
+#disabled,
+select {
+    padding: 10px;
+    background-color: black;
+}
+
+
+
 .link {
     color: grey;
 }
-#disabled{
+
+#disabled {
     color: lightgray;
 }
 
@@ -60,8 +79,61 @@ ul li {
     background-color: rgba(4, 4, 4, 0.818);
 
 }
- select{
+
+select {
     border: none;
     color: gray;
-    
+
+}
+
+#sub:hover {
+    background-color: green;
+    color: white;
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+
+    .nav-home,
+    .link,
+    select,
+    #disabled,
+    .search,
+    .cerca {
+
+        display: none;
+    }
+
+    .nav-bar {
+        max-width: 100%;
+
+
+
+
+
+
+    }
+
+    .nav-h {
+
+
+        float: left;
+
+        font-size: 40px;
+
+    }
+
+    .burger {
+        display: list-item;
+        color: white;
+        width: 50px;
+        height: 50px;
+        float: right;
+       
+
+
+
+
+    }
+
 }
